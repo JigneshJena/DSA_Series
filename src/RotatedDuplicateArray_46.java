@@ -33,7 +33,8 @@ public class RotatedDuplicateArray_46 {
         }
 
         public static void main(String[] args) {
-            int[] ar={1,1,1,2,2,3,1};
+            int[] ar={
+                    1,1,1,2,2,3,1};
             int target=2;
             System.out.println(search(ar,target));
         }
